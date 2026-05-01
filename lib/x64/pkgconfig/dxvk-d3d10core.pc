@@ -1,0 +1,9 @@
+prefix=/__w/dxvk/dxvk/build/dxvk-native-master-be27fd03755a064662da93bc26c38ff1e48f6036/usr
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: dxvk_d3d10core
+Description: dxvk: dxvk_d3d10core
+Version: 2.7.1
+Libs: -L${libdir} -ldxvk_d3d10core
+Cflags: -I${includedir}/dxvk
